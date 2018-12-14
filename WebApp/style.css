@@ -32,6 +32,12 @@
   grid-column: 2/4;
   grid-row: 2/9;
   background-color: #45ada8;
+
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr;
+
+  grid-gap: 1em;
 }
 
 .graphs{
